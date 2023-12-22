@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background-image: url(tom\ &\ jerry.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.calculator {
+  padding: 15px;
+  box-shadow: 0 0 10px #000;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.display input {
+  width: 330px;
+  border: 2px solid rgb(31, 30, 30);
+  border-radius: 5px;
+  outline: none;
+  padding: 14px;
+  margin: 5px;
+  font-size: 40px;
+  color: #000000;
+  background: #fff4f4;
+  text-align: right;
+  cursor: pointer;
+}
+input::placeholder {
+  color: #000000;
+}
+button {
+  width: 70px;
+  height: 50px;
+  margin: 5px;
+  color: #fff;
+  background: transparent;
+  font-size: 22px;
+  font-weight: 540;
+  border: 0;
+  border-radius: 10%;
+  box-shadow: -1px -2px 5px #000;
+  cursor: pointer;
+}
+button:active {
+  color: #fff;
+  background: #d88e3f;
+  transform: translate(2px, 2px);
+}
+.oprt {
+  color: #f0f1d0;
+  background: rgb(245, 58, 58);
+  font-weight: 700;
+}
+.oprt:active {
+  background: #000;
+}
+.oprt1 {
+  color: #2b2828;
+  background: #ffffff;
+  font-weight: 700;
+}
+.oprt2 {
+  color: #2b2828;
+  background: #ffffff;
+}
+#equal {
+  color: #000;
+  background-color: #21f62c;
+  border-radius: 5%;
+  font-weight: 1000;
+  width: 155px;
+}
+#equal:active {
+  color: #fff;
+}
